@@ -7,21 +7,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/style/style.css">
   <title>About Me</title>
 </head>
 
 <body>
 
-  <div class="container my-5">
+  <div class="container">
 
     <!--NAV BAR STUFF HERE-->
-
     <nav class="navbar navbar-light bg-light">
       <span class="navbar-brand mb-0 h1">
-        <a class="navbar-brand" href="index.html">
-          <h1>Jason Kim</h1>
-        </a>
+        <div class="row" id="logoname">
+          <div class="col">
+            <a class="navbar-brand" href="index.html">
+              <h1 id="myname">Jason Kim</h1>
+            </a>
+          </div>
+        </div>
       </span>
       <div class="navbar-nav">
         <div class="row">
@@ -47,14 +50,14 @@
 
   <!--ABOUT ME STUFF-->
 
-  <div class="container my-5">
+  <div class="container my-5" id="content">
 
     <h2>About Me</h2>
     <hr>
 
     <div class="row">
       <div class="col">
-        <img src="https://via.placeholder.com/250" alt="uggomcfacepic">
+        <img src="assets/images/cat.jpg" class="img-fluid img-thumbnail" alt="catface">
       </div>
       <div class="col-9">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nemo quasi veniam cupiditate, voluptas quas.
@@ -65,9 +68,7 @@
           dolorem veritatis, ut dolor facilis consequatur, pariatur maxime praesentium eaque. Vel voluptates provident
           neque tempora eos ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi excepturi voluptatibus
           laboriosam illum neque totam esse harum accusamus error magni sint optio qui dicta facilis ducimus sit minus,
-          omnis rem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam saepe nemo sapiente repudiandae
-          facilis autem. Quo, facilis harum odit cum incidunt soluta, dolore non blanditiis voluptate qui, recusandae
-          ipsa voluptas?</p>
+          omnis rem!</p>
       </div>
     </div>
 
@@ -79,6 +80,7 @@
   </div>
 
   <!--Place a footer here-->
+  <br><br><br><br>
   <footer class="page-footer bg-dark">
     <div class="footer-copyright text-center text-white py-4">Copyright ©
     </div>
