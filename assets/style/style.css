@@ -2,6 +2,15 @@ body {
   background: #DBDBDB;
 }
 
+.header {
+  background: white;
+}
+
+#logo {
+  color: white;
+  background: #4aaaa5
+}
+
 #logoname {
   background: #4aaaa5;
 }
