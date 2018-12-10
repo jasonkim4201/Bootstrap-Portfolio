@@ -1,9 +1,15 @@
 body {
-  background: #DBDBDB;
+  background: url("../images/concrete_seamless.png");
 }
 
 .header {
   background: white;
+}
+
+.card-text{
+  color: #4aaaa5;
+  font-weight: bold;
+  font-size: 22px;
 }
 
 #logo {
@@ -20,4 +26,8 @@ body {
 
 #content {
   background-color: white;
+}
+
+#contactbox {
+  background: white;
 }
